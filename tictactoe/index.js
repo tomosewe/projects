@@ -62,10 +62,10 @@ const board = (() => {
 const game = (() => {
   const resetButton = document.getElementById("reset");
   const cells = document.getElementsByClassName("cell")
+  const gameMessage = document.getElementById("game-message");
 
   const playerOne = createPlayer("PlayerOne", "X");
   const playerTwo = createPlayer("PlayerTwo", "O");
-  const gameMessage = document.getElementById("game-message");
 
   let currentPlayer = playerOne;
 
