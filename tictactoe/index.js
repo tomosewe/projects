@@ -1,3 +1,7 @@
+// TODO:
+// Prevent over-writing of marks
+// ADD AI to play against
+
 const createPlayer = function(name, mark) {
   const playerName = name;
   const playerMark = mark;
