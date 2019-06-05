@@ -1,0 +1,60 @@
+body{
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 0 10px;
+  font: 18px/1.5 -apple-system,BlinkMacSystemFont,"avenir next",avenir,"Segoe UI","lucida grande","helvetica neue",helvetica,"Fira Sans",roboto,noto,"Droid Sans",cantarell,oxygen,ubuntu,"franklin gothic medium","century gothic","Liberation Sans",sans-serif;
+  color: #444;
+}
+h1, h2, h3{
+  line-height:1.2;
+}
+
+#game {
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell--1 {
+  border-right: 3px solid blue;
+  border-bottom: 3px solid blue;
+}
+
+.cell--2 {
+  border-bottom: 3px solid blue;
+}
+
+.cell--3 {
+  border-left: 3px solid blue;
+  border-bottom: 3px solid blue;
+}
+
+.cell--4 {
+  border-bottom: 3px solid blue;
+  border-right: 3px solid blue;
+}
+
+.cell--6 {
+  border-bottom: 3px solid blue;
+  border-left: 3px solid blue;
+}
+
+.cell--7 {
+  border-right: 3px solid blue;
+}
+
+.cell--8 {
+  border-top: 3px solid blue;
+}
+
+.cell--9 {
+  border-left: 3px solid blue;
+}
