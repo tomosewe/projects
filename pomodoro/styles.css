@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  height: 100vh;
+  font-family: 'Michroma', sans-serif;
+  color: #FF073A;
+  background: linear-gradient(to bottom, #070829 0%,#05092b 24%,#08092b 25%,#08092d 30%,#050a2b 32%,#070a2e 35%,#080e31 56%,#090f35 62%,#080f32 63%,#0b1036 64%,#0b0f36 69%,#0a1237 70%,#091136 73%,#0b173f 91%,#0b163c 96%,#2e3135 97%,#2e3135 100%) fixed;
+}
+
+.timer {
+  font-size: 100px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  font-family: 'Michroma', sans-serif;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
